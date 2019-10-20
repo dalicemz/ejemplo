@@ -3,7 +3,7 @@
 require_once(__DIR__ . '/vendor/autoload.php');
 
 $host = 'http://192.168.43.86:4444/wd/hub'; // this is the default
-$USE_FIREFOX = true; // if false, will use chrome.
+$USE_FIREFOX = false; // if false, will use chrome.
 
 if ($USE_FIREFOX)
 {
